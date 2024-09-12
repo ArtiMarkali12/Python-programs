@@ -1,0 +1,3 @@
+f1=open("abc.txt","r")
+s=f1.read()
+print(s)
