@@ -1,0 +1,8 @@
+f1=open("abc.txt","a")
+f1.write("\n RBNB College Shrirampur")
+f1.write("\n TYBCS Computer science")
+f1.close()
+f1=open("abc.txt","r")
+s=f1.read()
+print(s)
+f1.close()
