@@ -1,0 +1,6 @@
+f1=open("abc.txt","w")
+a1=["java","php","python"]
+for s in a1:
+    f1.write(s+"\n")
+f1.close()
+print("write succ..")
