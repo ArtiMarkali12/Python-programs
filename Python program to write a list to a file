@@ -1,0 +1,9 @@
+f1=open("abc.txt","r")
+a1=[]
+while True:
+    s=f1.read()
+    if s=="":
+        break
+    a1.append(s)
+print(a1)
+f1.close()
