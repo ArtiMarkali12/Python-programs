@@ -1,0 +1,9 @@
+f1=open("abc.txt","r")
+s=f1.read()
+s1=s.split(" ")
+s3=""
+for s2 in s1:
+    if len(s2)>len(s3):
+        s3=s2
+print(s3)
+f1.close()
