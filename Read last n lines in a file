@@ -1,0 +1,6 @@
+f1=open("abc.txt","r")
+n=int(input("enter no of lines to read"))
+lines=f1.readlines()
+for i in lines[-n:]:
+    print(i,end="")
+f1.close()
